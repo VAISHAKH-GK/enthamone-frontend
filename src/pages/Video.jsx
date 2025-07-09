@@ -23,7 +23,7 @@ function Video() {
 
   function setUpWebSocket() {
     webSocketRef.current = new WebSocket(
-      "wss://webrtc.vaishakhgk.com/ws/start",
+      "wss://server.enthamone.com/ws/start",
     );
 
     if (webSocketRef.current) {
