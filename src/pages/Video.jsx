@@ -91,8 +91,8 @@ function Video() {
   const createPeer = () => {
     const configuration = {
       urls: ["stun:stun1.l.google.com:19302", "stun:stun2.l.google.com:19302"],
-      username: import.meta.env.WEBRTC_USERNAME,
-      credential: import.meta.env.WEBRTC_CREDENTIAL,
+      // username: import.meta.env.WEBRTC_USERNAME,
+      // credential: import.meta.env.WEBRTC_CREDENTIAL,
       iceCandidatePoolSize: 10,
     };
 
